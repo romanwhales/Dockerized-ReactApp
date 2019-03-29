@@ -17,7 +17,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React - Hi there! Makes sense cos i was changed for real!
+            Learn React - Hi there! Makes sense cos i was changed for real! and it was on the feature branch yo!!!
           </a>
         </header>
       </div>

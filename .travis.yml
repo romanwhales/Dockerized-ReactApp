@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t romanwhales/dockerized-reactApp -f Dockerfile.dev .
+  - docker build -t romanwhales/dockerized-reactapp -f Dockerfile.dev .
 
 script:
-  - docker run romanwhales/dockerized-reactApp npm run test -- --coverage
+  - docker run romanwhales/dockerized-reactapp npm run test -- --coverage
